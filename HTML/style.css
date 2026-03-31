@@ -70,6 +70,23 @@ aside {
     margin-top: 3%;
 }
 
+.sla {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkedin {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(30, 143, 255, 0.724);
+    margin: 1rem 20rem 0rem 0rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-size: 4rem;
+    padding: 1rem 2rem;
+}
+
 .desenvolvedor {
     font-size: 2rem;
     margin-left: 2%;
@@ -98,7 +115,7 @@ aside {
 
 .habilidade {
     text-align: right;
-    margin: 5rem 2rem 1rem 0;
+    margin: 5rem 58rem 1rem 0;
     font-style: oblique;
     font-size: 2rem;
 }
@@ -131,12 +148,12 @@ aside {
 }
 
 .html {
-    width: 30%;
+    width: 40%;
     background-color: #e34c26;
 }
 
 .css {
-    width: 30%;
+    width: 40%;
     background-color: #264de4;
 }
 
@@ -236,11 +253,21 @@ aside {
     .apresentacao1 {
         font-size: 3rem;
         text-align: center;
+        margin: 5rem 0 1rem 0;
     }
+
+    .linkedin {
+        transparency: 0.8;
+        margin: 5rem 1rem 0rem 1rem;
+        font-size: 2.5rem;
+    }
+
+
 
     .desenvolvedor {
         text-align: center;
         font-size: 1.6rem;
+        margin: 10rem 0rem 6rem 0rem;
     }
 
     .apresentacao2 {

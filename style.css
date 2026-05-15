@@ -1,0 +1,312 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: aliceblue;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+/* menu */
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+#logo {
+    font-size: 3.6rem;
+    margin: 0;
+}
+
+#menu {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+:root {
+    --azul: dodgerblue;
+}
+
+#botao1,
+#botao2,
+#botao3,
+#botao4 {
+    font-size: 2.4rem;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+#botao1:hover,
+#botao3:hover,
+#botao4:hover {
+    background-color: var(--azul);
+}
+
+#botao2 {
+    background-color: var(--azul);
+    border-radius: 5px;
+}
+
+
+.apresentacao1 {
+    font-size: 4.5rem;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.sla {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkedin {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(30, 143, 255, 0.724);
+    margin: 1rem 20rem 0rem 0rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-size: 4rem;
+    padding: 1rem 2rem;
+}
+
+.desenvolvedor {
+    font-size: 2rem;
+    margin-left: 2%;
+    font-style: italic;
+    margin-top: 1rem;
+}
+
+/* sobremim */
+#sobremim {
+    margin-left: 2%;
+    margin-top: 4%;
+    font-size: 3.5rem;
+    text-decoration: underline rgba(41, 126, 236, 0.708);
+}
+
+.apresentacao2 {
+    font-size: 2.2rem;
+    border: 3px solid rgba(255, 255, 255, 0.183);
+    padding: 2rem;
+    margin: 2rem 2rem 0 2rem;
+    background-color: rgba(169, 169, 169, 0.067);
+    border-radius: 22px;
+    max-width: 90%;
+}
+
+
+.habilidade {
+    text-align: right;
+    margin: 5rem 58rem 1rem 0;
+    font-style: oblique;
+    font-size: 2rem;
+}
+
+.habilidades {
+    background-color: rgba(255, 255, 255, 0.121);
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-left: 60%;
+    margin-bottom: 3rem;
+    min-width: 250px;
+}
+
+.habilidades h3 {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+}
+
+
+.html,
+.css,
+.python,
+.postgre {
+    display: inline-block;
+    height: 8px;
+    border-radius: 4px;
+    margin-left: 1rem;
+    vertical-align: middle;
+}
+
+.html {
+    width: 40%;
+    background-color: #e34c26;
+}
+
+.css {
+    width: 40%;
+    background-color: #264de4;
+}
+
+.python {
+    width: 60%;
+    background-color: dodgerblue;
+}
+
+.postgre {
+    width: 10%;
+    background-color: #00ff9c;
+}
+
+/* verprojetos */
+#verprojetos {
+    display: inline-block;
+    margin: 2rem 0 2rem 2rem;
+    padding: 1rem 2rem;
+    font-size: 2.3rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: #00ff9da0;
+    transition: all 0.3s ease;
+}
+
+#verprojetos:hover {
+    background-color: #00ff9d;
+    transform: scale(1.05);
+}
+
+/* PROJETOS */
+.cabeçalho {
+    text-align: center;
+    margin: 4rem 0 2rem 0;
+    font-size: 3rem;
+}
+
+.projetosdiv {
+    display: flex;
+    gap: 2rem;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projeto,
+.validador {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.projeto:hover,
+.validador:hover {
+    transform: translateY(-5px);
+    border-color: dodgerblue;
+}
+
+.projeto h3,
+.validador h3 {
+    margin-bottom: 1rem;
+    color: dodgerblue;
+}
+
+/* foter */
+.DIREITOS {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/*celulae */
+
+@media (max-width: 768px) {
+    aside {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    #menu {
+        justify-content: center;
+    }
+
+    #botao1,
+    #botao2,
+    #botao3,
+    #botao4 {
+        font-size: 1.8rem;
+    }
+
+    .apresentacao1 {
+        font-size: 3rem;
+        text-align: center;
+        margin: 5rem 0 1rem 0;
+    }
+
+    .linkedin {
+        transparency: 0.8;
+        margin: 5rem 1rem 0rem 1rem;
+        font-size: 2.5rem;
+    }
+
+
+
+    .desenvolvedor {
+        text-align: center;
+        font-size: 1.6rem;
+        margin: 10rem 0rem 6rem 0rem;
+    }
+
+    .apresentacao2 {
+        font-size: 1.8rem;
+        margin: 1rem;
+    }
+
+    .habilidades {
+        margin: 2rem auto;
+        display: block;
+        width: 90%;
+    }
+
+    .habilidade {
+        text-align: center;
+        margin: 3rem 0 1rem 0;
+    }
+
+    .projetosdiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projeto,
+    .validador {
+        width: 100%;
+    }
+
+    #verprojetos {
+        display: block;
+        text-align: center;
+        margin: 2rem auto;
+        width: fit-content;
+    }
+}
+
+body {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a2a3a 100%);
+    color: aliceblue;
+    font-family: 'Courier New', monospace;
+    min-height: 100vh;
+}

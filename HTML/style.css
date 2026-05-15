@@ -257,7 +257,7 @@ aside {
     }
 
     .linkedin {
-        transparency: 0.8;
+        opacity: 0.8;
         margin: 5rem 1rem 0rem 1rem;
         font-size: 2.5rem;
     }
